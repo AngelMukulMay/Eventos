@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos", "Eventos\Eventos.csproj", "{00356030-ED50-40DB-8EE3-3B2DA6098A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventos", "Eventos\Eventos.csproj", "{00356030-ED50-40DB-8EE3-3B2DA6098A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{FCA9AF00-0383-4685-BFAE-52165E4FBCBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{B4C02A27-7F2C-43AA-8099-83E22FC0A523}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{00356030-ED50-40DB-8EE3-3B2DA6098A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00356030-ED50-40DB-8EE3-3B2DA6098A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00356030-ED50-40DB-8EE3-3B2DA6098A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA9AF00-0383-4685-BFAE-52165E4FBCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA9AF00-0383-4685-BFAE-52165E4FBCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA9AF00-0383-4685-BFAE-52165E4FBCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA9AF00-0383-4685-BFAE-52165E4FBCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C02A27-7F2C-43AA-8099-83E22FC0A523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C02A27-7F2C-43AA-8099-83E22FC0A523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C02A27-7F2C-43AA-8099-83E22FC0A523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C02A27-7F2C-43AA-8099-83E22FC0A523}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
